@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+<Emp>
+<Details category="1">
+<SNo>1</SNo>
+<Name>Olap</Name>
+<PhoneNumber>OLaa</PhoneNumber>
+<Emailid>ooo</Emailid>
+<Date>oooo</Date>
+</Details>
+
+
+<Details category="2">
+<SNo>2</SNo>
+<Name>aaaaaaa</Name>
+<PhoneNumber>aaaaaa</PhoneNumber>
+<Emailid>aaaaaaa</Emailid>
+<Date>aaaaaa</Date>
+</Details>
+</Emp>

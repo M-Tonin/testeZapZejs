@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -5,7 +6,6 @@
 <p id="demo"></p>
 
 <script>
-
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -16,17 +16,21 @@ xhttp.open("GET", "testeZapZejs_CadastroCliente.xml", true);
 xhttp.send();
 
 function myFunction(xml) {
-    var x, i, txt, xmlDoc; 
-    xmlDoc = xml.responseXML;
-    txt = "";
-    x = xmlDoc.getElementsByTagName("email");
-    for (i = 0; i < x.length; i++) { 
-        txt += x[i].childNodes[0].nodeValue + "<br>";
-    }
-    document.getElementById("demo").innerHTML = txt;
+    var xmlDoc = xml.responseXML;
+    var x = xmlDoc.documentElement.childNodes;
+    document.getElementById("demo").innerHTML = 
+    "Number of child nodes: " + x.length;
     
+}
+    function get_firstChild(n) {
+    var y = n.firstChild;
+    while (y.nodeType != 1) {
+        y = y.nextSibling;
     }
+    return y;
+}
 
 </script>
+
 </body>
 </html>

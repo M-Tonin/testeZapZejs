@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Catalogo_Cadastro_Cliente>
+<!-- cadastro 1-->
 <Cadastros_Cliente>
 <Nome>Davi</Nome>
+<username> Davi_497</username>
+<senha> SENHA </senha>
 <Area_Atuacao>Ser Esnobe</Area_Atuacao>
 <Localizacao> Acima de VocÃª</Localizacao>
 <Servicos_Prestados>Desacreditar e por voce para baixo
@@ -11,8 +14,11 @@
 <email>davira_4.97@soumelhorquevc.com</email>
 <Descricao> Eh como se o seu nao prestasse</Descricao>
 </Cadastros_Cliente>
+<!-- cadastro 2-->    
 <Cadastros_Cliente>
 <Nome>Davi</Nome>
+<username> Davi_497</username>
+<senha> SENHA </senha>
 <Area_Atuacao>Ser Esnobe</Area_Atuacao>
 <Localizacao> Acima de VocÃª</Localizacao>
 <Servicos_Prestados>Desacreditar e por voce para baixo
@@ -22,8 +28,11 @@
 <email>DAV_4.97@soumelhorquevc.com</email>
 <Descricao> Eh como se o seu nao prestasse</Descricao>
 </Cadastros_Cliente>
+<!-- cadastro 3-->
 <Cadastros_Cliente>
 <Nome>Davi</Nome>
+<username> Davi_497</username>
+<senha> SENHA </senha>
 <Area_Atuacao>Ser Esnobe</Area_Atuacao>
 <Localizacao> Acima de VocÃª</Localizacao>
 <Servicos_Prestados>Desacreditar e por voce para baixo
@@ -33,8 +42,11 @@
 <email>dIRAavirdadaada_4.97@soumelhorquevc.com</email>
 <Descricao> Eh como se o seu nao prestasse</Descricao>
 </Cadastros_Cliente>
+<!-- cadastro 4-->
 <Cadastros_Cliente>
 <Nome>Davi</Nome>
+<username> Davi_497</username>
+<senha> SENHA </senha>
 <Area_Atuacao>Ser Esnobe</Area_Atuacao>
 <Localizacao> Acima de VocÃª</Localizacao>
 <Servicos_Prestados>Desacreditar e por voce para baixo
@@ -44,6 +56,5 @@
 <email>dadaadaavira_4.97@soumelhorquevc.com</email>
 <Descricao> Eh como se o seu nao prestasse</Descricao>
 </Cadastros_Cliente>
-
-
+<!-- cadastro 5-->
 </Catalogo_Cadastro_Cliente>	
