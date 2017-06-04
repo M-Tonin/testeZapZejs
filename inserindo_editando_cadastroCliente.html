@@ -8,7 +8,7 @@
 
     	var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
         	var fso = new ActiveXObject("Scripting.FileSystemObject");	
-        	var FILENAME='C:\\Users\\User\\Desktop\\testeZapZejs\\example.xml';
+        	var FILENAME='C:\\Users\\User\\Desktop\\testeZapZejs\\cadastroCliente.xml';
 
 
 
@@ -23,14 +23,14 @@
 
     	var file;
 
-        	var nome_ej=document.getElementById('nome_resp').value;
-        	var cnpj_ej=document.getElementById('CNPJ').value;
+        	var nome_c=document.getElementById('nome_resp').value;
+        	var cnpj_c=document.getElementById('CNPJ').value;
         	var em1=document.getElementById('empEmail').value;
-        	var user_ej=document.getElementById('usuario1').value;
-            var senha_ej=document.getElementById('senha').value;
-            var local_ej=document.getElementById('local').value;
-            var area_ej=document.getElementById('area').value;
-            var servicos_ej=document.getElementById('servicos').value;
+        	var user_c=document.getElementById('usuario1').value;
+            var senha_c=document.getElementById('senha').value;
+            var local_c=document.getElementById('local').value;
+            var area_c=document.getElementById('area').value;
+            var servicos_c=document.getElementById('servicos').value;
             
 
         	var tablemain = document.getElementById('tblmain');
@@ -51,14 +51,14 @@
         		file.writeLine(replace);
                 file.WriteLine('<Cadastros_Cliente>');
         		file.WriteLine('<SNo>'+sno+'</SNo>');
-        		file.WriteLine('<Nome>'+nome_ej+'</Nome>');
-        		file.WriteLine('<CNPJ>'+cnpj_ej+'</CNPJ>');
+        		file.WriteLine('<Nome>'+nome_c+'</Nome>');
+        		file.WriteLine('<CNPJ>'+cnpj_c+'</CNPJ>');
         		file.WriteLine('<Email>'+em1+'</Email>');
-        		file.WriteLine('<User>'+user_ej+'</User>');
-                file.WriteLine('<Senha>'+senha_ej+'</Senha>');
-                file.WriteLine('<Localizacao>'+local_ej+'</Localizacao>');
-                file.WriteLine('<Area_Atuacao>'+area_ej+'</Area_Atuacao>');
-                file.WriteLine('<Servicos_Prestados>'+servicos_ej+'</Servicos_Prestados>');
+        		file.WriteLine('<User>'+user_c+'</User>');
+                file.WriteLine('<Senha>'+senha_c+'</Senha>');
+                file.WriteLine('<Localizacao>'+local_c+'</Localizacao>');
+                file.WriteLine('<Area_Atuacao>'+area_c+'</Area_Atuacao>');
+                file.WriteLine('<Servicos_Prestados>'+servicos_c+'</Servicos_Prestados>');
 
         		file.WriteLine('</Cadastros_Cliente>');
         		file.WriteLine('</Catalogo_Cadastro_Cliente>');
@@ -74,14 +74,14 @@
         		file.WriteLine('<Catalogo_Cadastro_Cliente>');
                 file.WriteLine('<Cadastros_Cliente>');
                 file.WriteLine('<SNo>'+1+'</SNo>');
-        		file.WriteLine('<Nome>'+nome_ej+'</Nome>');
-        		file.WriteLine('<CNPJ>'+cnpj_ej+'</CNPJ>');
+        		file.WriteLine('<Nome>'+nome_c+'</Nome>');
+        		file.WriteLine('<CNPJ>'+cnpj_c+'</CNPJ>');
         		file.WriteLine('<Email>'+em1+'</Email>');
-                file.WriteLine('<User>'+user_ej+'</User>');
-                file.WriteLine('<Senha>'+senha_ej+'</Senha>');
-                file.WriteLine('<Localizacao>'+local_ej+'</Localizacao>');
-                file.WriteLine('<Area_Atuacao>'+area_ej+'</Area_Atuacao>');
-                file.WriteLine('<Servicos_Prestados>'+servicos_ej+'</Servicos_Prestados>');
+                file.WriteLine('<User>'+user_c+'</User>');
+                file.WriteLine('<Senha>'+senha_c+'</Senha>');
+                file.WriteLine('<Localizacao>'+local_c+'</Localizacao>');
+                file.WriteLine('<Area_Atuacao>'+area_c+'</Area_Atuacao>');
+                file.WriteLine('<Servicos_Prestados>'+servicos_c+'</Servicos_Prestados>');
     
 
         		file.WriteLine('</Cadastros_Cliente>');
@@ -96,7 +96,11 @@
     	document.getElementById('CNPJ').value='';
     	document.getElementById('empEmail').value='';
     	document.getElementById('usuario').value='';
-
+        document.getElementById('senha').value='';
+        document.getElementById('local').value='';
+        document.getElementById('area').value='';
+        document.getElementById('servicos').value='';
+             
     addRow('tablemain');
     	file.close();
     }
