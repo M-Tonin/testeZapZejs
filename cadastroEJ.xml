@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+<Catalogo_Cadastro_EJ>
+<Cadastros_EJ>
+<SNo>1</SNo>
+<Nome>ola</Nome>
+<CNPJ>olaaa</CNPJ>
+<Email>olaaaaa</Email>
+<User>olaaaaaaaaaa</User>
+<Senha>olaaaaaaaaa</Senha>
+<Localizacao>aaaaaaa</Localizacao>
+<Area_Atuacao>aaaaaaaaa</Area_Atuacao>
+<Servicos_Prestados>aaaaaaaaaaaaaa</Servicos_Prestados>
+</Cadastros_EJ>
+</Catalogo_Cadastro_EJ>
